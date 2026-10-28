@@ -1,0 +1,14 @@
+# ---- 原始数据不随仓库分发（第三方抓取快照，按 README 命令自行获取）----
+data/猎聘招聘_数据分析岗_原始.csv
+
+# ---- 系统与编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Python / Jupyter ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
