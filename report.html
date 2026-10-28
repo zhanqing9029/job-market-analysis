@@ -201,7 +201,6 @@ footer em{background:none;color:var(--muted);padding:0;font-weight:400;font-size
 <a class="sub" href="#61">6.1 项目总结</a>
 <a class="sub" href="#62">6.2 局限性</a>
 <a class="sub" href="#63">6.3 后续优化方向</a>
-<a class="" href="#_4">附：可直接引用的表述</a>
 </nav>
 <h2 id="1">1. 项目概述</h2>
 <h3 id="11">1.1 项目背景</h3>
@@ -977,27 +976,6 @@ footer em{background:none;color:var(--muted);padding:0;font-weight:400;font-size
 <li><strong>接入更近期的数据集重跑同一套 pipeline</strong>，验证经验溢价结构（+80% / +67% / +33%）是否依然成立，这是判断结论时效性的唯一办法。</li>
 <li><strong>把清洗与绘图封装成可配置脚本</strong>，只改关键词和城市参数就能复用到其他岗位方向（如“数据开发”“算法工程师”）。</li>
 <li><strong>引入简单的统计检验</strong>（Mann-Whitney U 检验），验证“大专 vs 本科”的差异是否显著，而不只是比较中位数高低。</li>
-</ol>
-<hr />
-<h2 id="_4">附：可直接引用的表述</h2>
-<p><strong>简历项目条目（3 行版）</strong></p>
-<blockquote>
-<p><strong>大数据招聘岗位数据分析</strong>（Python / pandas / matplotlib）</p>
-<ul>
-<li>基于 4,002 条公开招聘数据完成全流程分析，交付 3,984 条 × 25 字段分析宽表，薪资可量化率 83.7%</li>
-<li>设计分字段缺失处理策略，识别城市缺失为 MNAR（缺失组薪资中位 ¥27,500，高于北京），避免均值填充导致的系统性低估</li>
-<li>通过三层口径控制将学历溢价从 −55.0% 修正至 −42.9%，输出 4 条可转化为投递策略的结论</li>
-</ul>
-</blockquote>
-<p><strong>作品集一句话介绍</strong></p>
-<blockquote>
-<p>用 4,000 条真实招聘数据回答一个具体问题：专科应届生在数据分析岗的真实机会有多大——结论包括 169 条精确可投岗位池、广州的机会密度优势，以及“经验不限”其实是低薪信号这一反直觉发现。</p>
-</blockquote>
-<p><strong>面试可展开的三个技术点</strong></p>
-<ol>
-<li>为什么缺失值不能统一填充（MNAR 判断 + 数据佐证）</li>
-<li>为什么异常值用 IQR 标记但不删除（右偏分布 + 截尾均值对照）</li>
-<li>为什么控制变量后差距收窄 22% 仍然算显著（结构效应与真实门槛的分解）</li>
 </ol>
 
 </main>
